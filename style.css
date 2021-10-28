@@ -306,6 +306,9 @@ html{
 .mobile-container img{
     display: none !important;
 }
+.owl-carousel{
+    z-index: -1 !important;
+}
 
 
 /* SVG styles */
@@ -323,6 +326,9 @@ html{
 @media only screen and (max-width: 1000px) {
     .container{
         display: none;
+    }
+    .owl-carousel{
+        z-index: 1 !important;
     }
     .mobile-container{
         display: block;
