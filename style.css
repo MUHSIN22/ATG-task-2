@@ -300,9 +300,7 @@ html{
     transform: translateY(10%);
     z-index: 1;
 }
-.mobile-container{
-    display: none;
-}
+
 
 
 /* SVG styles */
@@ -322,18 +320,242 @@ html{
         display: none;
     }
     .mobile-container{
-        display: block;
         width: 100%;
         height: 100vh;
+    }
+    .slide{
+        height: 100vh;
+        width: 100%;
         overflow: hidden;
     }
-    .mobile-wrapper{
-        width: 700%;
-        height: 100%;
+    .slide-2 .image-section-mobile{
+        background: var(--blue-left);
     }
-    .mobile-wrapper .item{
-        width: calc(100%/7);
-
+    .slide-2 .text-section-mobile{
+        background: var(--blue);
+    }
+    .slide-3 .image-section-mobile{
+        background: var(--dark-blue-left);
+    }
+    .slide-3 .text-section-mobile{
+        background: var(--dark-blue);
+    }
+    .slide-4 .text-section-mobile{
+        background: var(--off-dark-blue);
+    }
+    .slide-4 .image-section-mobile{
+        background: var(--extra-dark);
+    }
+    .slide-5 .text-section-mobile{
+        background: var(--light-blue);
+    }
+    .slide-5 .image-section-mobile{
+        background: var(--aqua);
+    }
+    .slide-6 .text-section-mobile{
+        background: var(--sixth-blue);
+    }
+    .slide-6 .image-section-mobile{
+        background-image: url('Assets/furniture-bg.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .slide-7 .image-section-mobile{
+        background: var(--light-green);
+    }
+    .slide-7 .text-section-mobile{
+        background: var(--dark-green);
+    }
+    .image-section-mobile{
+        background: var(--off-white);
+        height: 60%;
+        position: relative;
+    }
+    .text-section-mobile{
+        height: 40%;
+        background: var(--purple);
+        position: relative;
+        z-index: 3;
+        color: #fff;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .first-section-images-mobile{
+        width: 60% !important;
+        position: absolute;
+        bottom: 0;
+        transform: translateY(50%);
+    }
+    .first-section-images-mobile:last-child{
+        left: 50%;
+    }
+    .heading-mobile{
+        font-size: 4rem;
+    }
+    .description-mobile{
+        font-size: 1.3rem;
+    }
+    .btn-case-study{
+        width: max-content;
+        font-size: 1.5rem;
+    }
+    .badge-1{
+        width: 40% !important;
+        position: absolute;
+        top: 0;
+        transform: translateY(-20%);
+        border: 2px solid var(--purple);
+        border-radius: 10px;
+    }
+    .second-section-images-mobile{
+        position: absolute;
+        width: 45% !important;
+    }
+    .second-section-image-mobile-1{
+        left: 2%;
+        bottom: 0;
+    }
+    .second-section-image-mobile-2{
+        right: 2%;
+        top: 0;
+    }
+    .third-section-images-mobile{
+        width: 46% !important;
+        position: absolute;
+    }
+    .third-section-image-mobile-1{
+        left: -3%;
+        bottom: 0;
+        width: 60% !important;
+        transform: translateY(30%)
+    }
+    .third-section-image-mobile-2{
+        transform: translateY(-30%);
+        right: 3%;
+        top: 0;
     }
 
+    .fourth-section-images-mobile{
+        position: absolute;
+    }
+    .fourth-section-image-mobile-1{
+        width: 40% !important;
+        left: 5%;
+        bottom: 0;
+        transform: translateY(30%);
+    }
+    .fourth-section-image-mobile-2{
+        width: 40% !important;
+        left: 45%;
+        top: 0;
+        transform: translateY(-10%)
+    }
+    .fourth-section-image-mobile-3{
+        width: 30% !important;
+        left: 0;
+        top: 0;
+    }
+    .fourth-section-image-mobile-4{
+        width: 30% !important;
+        right: 0;
+        top: 0;
+        transform: translate(60%,-70%)
+    }
+    .fourth-section-image-mobile-5{
+        width: 30% !important;
+        right: 0;
+        bottom: 0;
+        transform: translate(50%,30%)
+    }
+    .fourth-section-image-mobile-6{
+        width: 20% !important;
+        right: 0;
+        top: 50%;
+        transform: translate(40%,-50%)
+    }
+    .fourth-section-image-mobile-7{
+        width: 40% !important;
+        left: 45%;
+        bottom: 0;
+        transform: translateY(50%)
+    }
+
+    .fifth-section-images-mobile{
+        position: absolute;
+        width: 30% !important;
+    }
+    .fifth-section-image-mobile-1{
+        left: 2%;
+        top: 0;
+        transform: translateY(-40%);
+    }
+    .fifth-section-image-mobile-2{
+        left:34%;
+        top: 0;
+        transform: translateY(-4%)
+    }
+    .fifth-section-image-mobile-3{
+        left: 2%;
+        bottom: 0;
+        transform: translateY(10%);
+    }
+    .fifth-section-image-mobile-4{
+        left: 34%;
+        transform: translateY(70%);
+        bottom: 0;
+    }
+    .fifth-section-image-mobile-5{
+        left: 66%;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+    .sixth-section-images-mobile{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .seventh-section-images-mobile{
+        position: absolute;
+        width: 50% !important;
+    }
+    .seventh-section-image-mobile-1{
+        left: 12%;
+        bottom: 0;
+        transform: translateY(40%);
+        z-index: 1;
+    }
+    .seventh-section-image-mobile-2{
+        left:47%;
+        bottom:0;
+        transform: translateY(50%);
+        width: 40% !important;
+        z-index: 0;
+    }
+
+}
+@media only screen and (max-width:660px) {
+    .image-section-mobile{
+        height: 50%;
+    }
+    .text-section-mobile{
+        height: 50%;
+    }
+}
+@media only screen and (max-width: 500px){
+    .first-section-images-mobile{
+        transform: translateY(20%)
+    }
+    .heading-mobile{
+        font-size: 2.5rem;
+    }
+    .description-mobile{
+        font-size: 1rem;
+    }
+    .btn-case-study{
+        font-size: 1.1rem;
+        margin-top: 2rem;
+    }
 }
