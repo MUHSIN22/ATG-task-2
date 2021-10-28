@@ -53,6 +53,15 @@ secondSectionTL
             },
             "-=0.5"
         )
+        .fromTo('.dotsfill2',
+            {
+                autoAlpha : 0.2
+            },
+            {
+                autoAlpha : 1
+            },
+            "-=0.5"
+        )
 
 
 thirdSectionTL  
@@ -75,6 +84,15 @@ thirdSectionTL
                 },
                 "-=0.5"
             )
+            .fromTo('.dotsfill3',
+            {
+                autoAlpha : 0.2
+            },
+            {
+                autoAlpha : 1
+            },
+            "-=0.5"
+        )
 
 fourthSectionTL
                 .fromTo('.fourth-section-image-1',
@@ -125,6 +143,15 @@ fourthSectionTL
                         xPercent:"0",
                         yPercent:"0",
                         autoAlpha:1
+                    },
+                    "-=0.5"
+                )
+                .fromTo('.dotsfill4',
+                    {
+                        autoAlpha : 0.2
+                    },
+                    {
+                        autoAlpha : 1
                     },
                     "-=0.5"
                 )
@@ -179,6 +206,15 @@ fifthSectionTL
                 },
                 "-=0.5"
             )
+            .fromTo('.dotsfill5',
+                {
+                    autoAlpha : 0.2
+                },
+                {
+                    autoAlpha : 1
+                },
+                "-=0.5"
+            )
 
 
 sixthSectionTL
@@ -191,6 +227,12 @@ sixthSectionTL
                 autoAlpha:"1"
             }
         )
+        .to('.dotsfill6',
+            {
+                autoAlpha : 1
+            },
+            "-=0.5"
+        )
 
 
 seventhSectionTL
@@ -202,6 +244,15 @@ seventhSectionTL
                 yPercent:"0",
                 autoAlpha:1
             }
+        )
+        .fromTo('.dotsfill7',
+            {
+                autoAlpha : 0.2
+            },
+            {
+                autoAlpha : 1
+            },
+            "-=0.5"
         )
 
 // Trigger For the first section

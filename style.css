@@ -67,6 +67,19 @@ html{
     font-weight: 500;
     cursor: pointer;
 }
+.badge-container{
+    height: 6rem;
+    overflow: hidden;   
+}
+.badge-wrapper{
+    list-style: none;
+}
+.badge-wrapper li{
+    height: 6rem;    
+}
+.badge{
+    height: 100%;
+}
 .headings{
     height: 5rem;
     overflow-y: hidden;
@@ -286,4 +299,16 @@ html{
     bottom: 0;
     transform: translateY(10%);
     z-index: 1;
+}
+
+
+
+/* SVG styles */
+.dotsfill2,
+.dotsfill3,
+.dotsfill4,
+.dotsfill5,
+.dotsfill6,
+.dotsfill7{
+    opacity: 0.2;
 }
