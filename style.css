@@ -300,7 +300,9 @@ html{
     transform: translateY(10%);
     z-index: 1;
 }
-
+.mobile-container{
+    display: none;
+}
 
 
 /* SVG styles */
@@ -311,4 +313,27 @@ html{
 .dotsfill6,
 .dotsfill7{
     opacity: 0.2;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 1000px) {
+    .container{
+        display: none;
+    }
+    .mobile-container{
+        display: block;
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .mobile-wrapper{
+        width: 700%;
+        height: 100%;
+    }
+    .mobile-wrapper .item{
+        width: calc(100%/7);
+
+    }
+
 }
