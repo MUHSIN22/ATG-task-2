@@ -332,7 +332,7 @@ html{
         background: var(--blue-left);
     }
     .slide-2 .text-section-mobile{
-        background: var(--blue);
+        background : linear-gradient(to right, #e100ff,  #7f00ff);
     }
     .slide-3 .image-section-mobile{
         background: var(--dark-blue-left);
@@ -409,6 +409,9 @@ html{
         transform: translateY(-20%);
         border: 2px solid var(--purple);
         border-radius: 10px;
+    }
+    .badge-2{
+        border-color: var(--dark-green);
     }
     .second-section-images-mobile{
         position: absolute;
@@ -534,7 +537,39 @@ html{
         width: 40% !important;
         z-index: 0;
     }
-
+    .owl-dots{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 1rem;
+        z-index: 10;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 5px;
+        background: rgba(238, 238, 238, 0.39) !important;
+    }
+    .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.active{
+        background: rgba(236, 236, 236, 0.959) !important;
+    }
+    .btns{
+        display: flex;
+        align-items: center;
+    }
+    .coming-soon-btn{
+        background: #fff;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5rem;
+        margin-top: 3rem;
+        margin-left: 1rem;
+    }
+    .coming-soon-btn-1{
+        background: rgb(238, 7, 161);
+        color: #fff;
+    }
 }
 @media only screen and (max-width:660px) {
     .image-section-mobile{
@@ -551,11 +586,17 @@ html{
     .heading-mobile{
         font-size: 2.5rem;
     }
+    .text-section-mobile{
+        padding: 1rem;
+    }
     .description-mobile{
         font-size: 1rem;
     }
     .btn-case-study{
         font-size: 1.1rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
+    }
+    .coming-soon-btn{
+        margin-top: 1rem;
     }
 }

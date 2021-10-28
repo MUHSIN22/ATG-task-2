@@ -137,10 +137,10 @@ sixthSection
 
 setColor(firstSection,purple,offWhite,0,144,80,0, 96, 0);
 setColor(secondSection,blue, blueLeft, -144, 0, 0, -80, 0, -96)
-setColor(thirdSection,darkBlue,darkBlueLeft, -288, -144, -80, -160)
-setColor(fourthSection,offDarkBlue,extraDark, -432, -288, -160, -240)
-setColor(fifthSection,lightBlue,aqua, -576, -432, -240, -320)
-setColor(seventhSection,darkGreen,lightGreen,-864,-720, -400, -480, -500,-576)
+setColor(thirdSection,darkBlue,darkBlueLeft, -288, -144, -80, -160,-96, -192)
+setColor(fourthSection,offDarkBlue,extraDark, -432, -288, -160, -240, -192, -288)
+setColor(fifthSection,lightBlue,aqua, -576, -432, -240, -320, -288, -384)
+setColor(seventhSection,darkGreen,lightGreen,-864,-720, -400, -480, -384,-576)
 
 
 
