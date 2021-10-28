@@ -303,9 +303,6 @@ html{
 .mobile-container{
     display: none !important;
 }
-.text-section-mobile{
-    display: none !important
-}
 .mobile-container img{
     display: none !important;
 }
@@ -403,7 +400,6 @@ html{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        display: block;
     }
     .first-section-images-mobile{
         width: 60% !important;
