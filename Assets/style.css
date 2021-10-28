@@ -309,6 +309,9 @@ html{
 .mobile-container img{
     display: none !important;
 }
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+	display: none !important;
+}
 .owl-carousel{
     z-index: -1 !important;
 }
@@ -330,8 +333,11 @@ html{
     .container{
         display: none;
     }
+    .no-js .owl-carousel, .owl-carousel.owl-loaded {
+        display: block !important;
+    }
     .owl-carousel{
-        z-index: 1 !important;
+        z-index: 1;
     }
     .mobile-container{
         display: block !important;
@@ -340,9 +346,6 @@ html{
     }
     .mobile-container img{
         display:  block !important;
-    }
-    .owl-carousel{
-        z-index: 1 !important;
     }
     .slide{
         height: 100vh;
